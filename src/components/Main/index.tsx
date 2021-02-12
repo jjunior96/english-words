@@ -10,11 +10,6 @@ import * as S from './styles'
 type Word = {
   img: string
   mean: string
-  jp: {
-    wd: string
-    kj: string
-    rmj: string
-  }
   category: string
 }
 
@@ -25,9 +20,9 @@ const Main = () => {
 
   useEffect(() => {
     const voices = window.speechSynthesis?.getVoices()
-    const jpVoice = voices?.find((voice) => /ja-JP/.test(voice.lang))
+    const enVoice = voices?.find((voice) => /en-US/.test(voice.lang))
 
-    setVoice(jpVoice || voices?.[0])
+    setVoice(enVoice || voices?.[0])
   }, [])
 
   const speak = (word: string) => {
@@ -35,7 +30,7 @@ const Main = () => {
     const utterance = new SpeechSynthesisUtterance()
 
     utterance.text = patchedWord
-    utterance.lang = 'ja-JP'
+    utterance.lang = 'en-US'
     utterance.voice = voice
     utterance.rate = 0.8
 
@@ -45,18 +40,12 @@ const Main = () => {
   return (
     <>
       <S.Block>
-        <Card
-          hiragana={word.jp.wd}
-          image={word.img}
-          kanji={word.jp.kj}
-          meaning={word.mean}
-          romanji={word.jp.rmj}
-        />
+        <Card image={word.img} meaning={word.mean} />
 
         <S.IconWrapper>
           <S.Icon>
             <VolumeUpOutline
-              onClick={() => speak(word.jp.rmj)}
+              onClick={() => speak(word.mean)}
               title="Hear the pronunciation"
             />
           </S.Icon>

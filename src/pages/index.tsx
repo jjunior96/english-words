@@ -6,32 +6,26 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Japanese Words"
-        description="Discover new japanese words each time you see the page."
-        canonical="https://japanese-words.vercel.app"
+        title="English Words"
+        description="Discover new english words each time you see the page."
+        canonical="https://english-words.vercel.app"
         openGraph={{
-          url: 'https://japanese-words.vercel.app',
-          title: 'Japanese Words',
-          description:
-            'Discover new japanese words each time you see the page.',
+          url: 'https://english-words.vercel.app',
+          title: 'English Words',
+          description: 'Discover new english words each time you see the page.',
           images: [
             {
-              url: 'https://japanese-words.vercel.app/img/meta/cover.png',
+              url: 'https://english-words.vercel.app/img/meta/cover.png',
               width: 1280,
               height: 720,
-              alt: 'Japanese Words'
+              alt: 'English Words'
             }
           ],
-          site_name: 'JapaneseWords'
-        }}
-        twitter={{
-          handle: '@Willian_justen',
-          site: '@Willian_justen',
-          cardType: 'summary_large_image'
+          site_name: 'englishWords'
         }}
       />
       <GithubCorner
-        href="https://github.com/willianjusten/japanese-words"
+        href="https://github.com/jjunior96/english-words"
         octoColor="#06092b"
         bannerColor="#f231a5"
       />

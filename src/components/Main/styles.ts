@@ -12,11 +12,13 @@ export const Icon = styled.div`
   cursor: pointer;
   margin: 3rem auto;
   text-align: center;
-  transition: transform 0.8s ease-in-out;
+  /* transition: transform 0.8s ease-in-out; */
+  transition: color 0.2s ease-in-out;
   width: 4rem;
 
   &:hover {
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
+    color: #f231a5;
   }
 
   ${media.lessThan('medium')`

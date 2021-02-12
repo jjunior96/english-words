@@ -34,7 +34,7 @@ export const ImageWrapper = styled.div`
   }
 `
 
-export const Japanese = styled.h1`
+export const English = styled.h1`
   display: inline;
   font-size: 3rem;
   font-weight: 400;
@@ -42,8 +42,4 @@ export const Japanese = styled.h1`
 
 export const Meaning = styled.span`
   font-size: 1.5rem;
-`
-
-export const Romanji = styled.p`
-  font-size: 2rem;
 `
