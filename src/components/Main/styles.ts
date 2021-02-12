@@ -12,13 +12,11 @@ export const Icon = styled.div`
   cursor: pointer;
   margin: 3rem auto;
   text-align: center;
-  /* transition: transform 0.8s ease-in-out; */
   transition: color 0.2s ease-in-out;
   width: 4rem;
 
   &:hover {
-    /* transform: rotate(360deg); */
-    color: #f231a5;
+    color: #15ab89;
   }
 
   ${media.lessThan('medium')`
@@ -27,13 +25,21 @@ export const Icon = styled.div`
   `}
 `
 
+export const IconRotate = styled(Icon)`
+  transition: transform 0.8s ease-in-out;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+`
+
 export const Footer = styled.footer`
   color: white;
   font-size: 1.4rem;
 
   a,
   span {
-    color: #f231a5;
+    color: #15ab89;
   }
 `
 

@@ -1,7 +1,6 @@
-# Japanese Words
+# English Words
 
-A simple project to learn new japanese words everyday.
-This project uses [React Avançado Boilerplate](https://github.com/react-Avancado/boilerplate), that uses lot of stuff as:
+A simple project to learn new english words everyday.
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)

@@ -1,6 +1,5 @@
 import Main from 'components/Main'
 import { NextSeo } from 'next-seo'
-import GithubCorner from 'react-github-corner'
 
 export default function Home() {
   return (
@@ -23,11 +22,6 @@ export default function Home() {
           ],
           site_name: 'englishWords'
         }}
-      />
-      <GithubCorner
-        href="https://github.com/jjunior96/english-words"
-        octoColor="#06092b"
-        bannerColor="#f231a5"
       />
       <Main />
     </>
