@@ -30,6 +30,7 @@ export const ImageWrapper = styled.div`
   justify-content: center;
 
   ${media.lessThan('medium')`
+    margin: 0 auto;
     margin-bottom: 2rem;
     max-width: 20rem;
   `}
