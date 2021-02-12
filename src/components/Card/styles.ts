@@ -8,11 +8,13 @@ export const Block = styled.div`
 
 export const Wrapper = styled.main`
   width: 35rem;
-  background: #f231a5;
+  /* background: #3f6473; */
+  background: #15ab89;
   color: white;
   padding: 5rem 2rem;
   margin: 0 2rem;
   border-radius: 0.6rem;
+  box-shadow: 0 2px 16px #09736a;
 
   ${media.lessThan('medium')`
     width: 30rem;

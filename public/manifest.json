@@ -1,6 +1,6 @@
 {
-  "name": "Japanese Words",
-  "short_name": "Japanese Words",
+  "name": "English Words",
+  "short_name": "English Words",
   "icons": [
     {
       "src": "/img/meta/icon-192.png",
@@ -18,9 +18,9 @@
       "sizes": "512x512"
     }
   ],
-  "background_color": "#06092B",
-  "description": "Discover new japanese words each time you see the page.",
+  "background_color": "#020E17",
+  "description": "Discover new English words each time you see the page.",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": "#06092B"
+  "theme_color": "#020E17"
 }

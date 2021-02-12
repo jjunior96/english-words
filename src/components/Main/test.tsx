@@ -7,7 +7,7 @@ describe('<Main />', () => {
   it('should render the elements', () => {
     render(<Main />)
 
-    expect(screen.getAllByRole('heading')).toHaveLength(2)
+    expect(screen.getAllByRole('heading')).toHaveLength(1)
     expect(
       screen.getByRole('img', { name: /get new word/i })
     ).toBeInTheDocument()

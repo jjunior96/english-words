@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useEffect, useState } from 'react'
 import { RefreshOutline } from '@styled-icons/evaicons-outline/RefreshOutline'
 import { VolumeUpOutline } from '@styled-icons/evaicons-outline/VolumeUpOutline'
@@ -50,12 +51,12 @@ const Main = () => {
             />
           </S.Icon>
 
-          <S.Icon>
+          <S.IconRotate>
             <RefreshOutline
               onClick={() => setWord(data[randomWord()])}
               title="Get new word"
             />
-          </S.Icon>
+          </S.IconRotate>
         </S.IconWrapper>
       </S.Block>
 
@@ -66,12 +67,13 @@ const Main = () => {
 
       <S.Footer>
         Made with <a href="https://nextjs.org/">NextJS</a> and
-        <span> 愛</span> by{' '}
-        <a href="https://willianjusten.com.br">Willian Justen</a>
+        <span> ❤️ </span> by{' '}
+        <a href="https://devjuniorplus.com.br">Junior Alves</a>
       </S.Footer>
 
       <S.Footer>
-        Totally inspired by <a href="https://mainichi.me/">Mainich.me</a>
+        Totally inspired by{' '}
+        <a href="https://japanese-words.vercel.app/">Japanese Words</a>
       </S.Footer>
     </>
   )

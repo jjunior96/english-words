@@ -15,9 +15,9 @@ const Card = ({ image, meaning }: CardProps) => (
     <S.Block>
       <S.English>{meaning}</S.English>
     </S.Block>
-    <S.Block>
+    {/* <'S.Block>
       <S.English>{meaning}</S.English>
-    </S.Block>
+    </S.Block>' */}
   </S.Wrapper>
 )
 
