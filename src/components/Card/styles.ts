@@ -25,6 +25,9 @@ export const Wrapper = styled.main`
 
 export const ImageWrapper = styled.div`
   margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   ${media.lessThan('medium')`
     margin-bottom: 2rem;
