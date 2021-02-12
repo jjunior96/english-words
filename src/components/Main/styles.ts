@@ -42,11 +42,3 @@ export const Footer = styled.footer`
     color: #15ab89;
   }
 `
-
-export const Warning = styled(Footer)`
-  margin: 1rem auto;
-
-  ${media.lessThan('medium')`
-    width: 85%;
-  `}
-`

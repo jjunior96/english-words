@@ -60,11 +60,6 @@ const Main = () => {
         </S.IconWrapper>
       </S.Block>
 
-      <S.Warning>
-        * This application uses the new Web Speech API, so it might not work
-        correctly in some browsers/devices.
-      </S.Warning>
-
       <S.Footer>
         Made with <a href="https://nextjs.org/">NextJS</a> and
         <span> ❤️ </span> by{' '}
