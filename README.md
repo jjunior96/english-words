@@ -38,4 +38,4 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `build-storybook`: create the build version of storybook
 
 ## Deploy
-[http://english-words.vercel.app/](http://english-words.vercel.app/)
+[https://english-words.vercel.app/](https://english-words.vercel.app/)
